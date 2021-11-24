@@ -37,6 +37,12 @@
              android:key="volte_icon"
              android:title="@string/volte_icon_title"
              android:summary="@string/volte_icon_summary"
-             android:defaultValue="true"/>    
+             android:defaultValue="true"/>
+
+         <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_sleep_gesture_title"
+            android:summary="@string/double_tap_sleep_gesture_summary"
+            android:defaultValue="false" />
 
 </PreferenceScreen>
