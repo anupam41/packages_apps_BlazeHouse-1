@@ -40,7 +40,7 @@
     </PreferenceCategory>
     
     <PreferenceCategory
-        android:title="@string/buttons_category" >
+        android:title="@string/power_key" >
 
         <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="advanced_reboot"
@@ -60,5 +60,23 @@
             android:defaultValue="true" />
 
 	</PreferenceCategory>
+
+   <PreferenceCategory
+            android:key="volume_keys"
+            android:title="@string/volume_keys" >
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="volume_button_music_control"
+            android:summary="@string/volume_rocker_music_controls_summary"
+            android:title="@string/volume_rocker_music_controls_title"
+            android:defaultValue="false" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="volume_rocker_wake"
+            android:summary="@string/volume_rocker_wake_summary"
+            android:title="@string/volume_rocker_wake_title"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
