@@ -4,5 +4,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- Monet -->
+    <Preference
+        android:key="monet_settings"
+        android:title="@string/monet_engine_settings_title"
+        android:summary="@string/monet_engine_settings_summary"
+        android:fragment="com.blaze.house.fragments.MonetSettings" />
 
 </PreferenceScreen>
